@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1> You are now on page 2</h1>
-    <a href = "test.html" target=_self title="Click me to go to page 2">
-Previous Page
-</a>
-<br>
-<br>
-<h1> Pick the correct one </h1>
-<button onclick="wrong()"> A </button>
-<button onclick="wrong()"> B </button>
-<button onclick="correct()"> C </button>
-<button onclick="wrong()"> D </button>
-<p id="x">Pick One!</p>
-<script>
-    function correct(){
-        document.getElementById("x").innerHTML = "You picked the correct answer!";
-    }
-    function wrong(){
-        document.getElementById("x").innerHTML = "You picked the incorrect answer!";
-    }
-</script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1> You are now on page 2</h1>
+        <a href = "test.html" target=_self title="Click me to go to page 2">
+        Previous Page
+        </a>
+
+        <br>
+        <br>
+
+        <h1> Pick the correct one </h1>
+        <button onclick="wrong()"> A </button>
+        <button onclick="wrong()"> B </button>
+        <button onclick="correct()"> C </button>
+        <button onclick="wrong()"> D </button>
+        <p id="x">Pick One!</p>
+        <script>
+            function correct(){
+                document.getElementById("x").innerHTML = "You picked the correct answer!";
+            }
+            function wrong(){
+                document.getElementById("x").innerHTML = "You picked the incorrect answer!";
+            }
+        </script>
+        <script src="index.js"></script>
+    </body>
 </html>
