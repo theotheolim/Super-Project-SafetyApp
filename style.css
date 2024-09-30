@@ -3,6 +3,8 @@ h1 {
     font-size: 2em;
 }
 body {
+    background-color: rgb(1,11,26);
+    color: rgb(155, 160, 168);
     font-family:fantasy;
     font-size: 2em;
 }
