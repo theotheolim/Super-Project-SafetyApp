@@ -2,6 +2,10 @@ h1 {
     font-family:'Times New Roman', Times, serif;
     font-size: 2em;
 }
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
 body {
     background-color: rgb(1,11,26);
     color: rgb(155, 160, 168);
