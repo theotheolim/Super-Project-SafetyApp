@@ -1,7 +1,59 @@
+a{
+    color:rgb(155, 160, 168);
+}
+.hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom:0px;
+    padding: 195px 0;
+    position: relative;
+    overflow: hidden;
+}
+.video-bg{
+    position:absolute;
+    top:100;
+    left:20;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: scale-down;
 
+}
+@keyframes fade-inout {
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+.fade-in-fade-out{
+    animation: fade-inout 3s;
+}
 h1 {
     font-family:'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 3em;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(4, 27, 61);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+ 
+}
+.navbar a:hover{
+    background-color: rgb(57, 57, 120);
+}
+.navbar li{
+    float:left;
 }
 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
