@@ -1,27 +1,31 @@
+/* code for the lesson text*/
 a{
     color:rgb(155, 160, 168);
 }
+/* code for the video*/
 .hero{
     display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom:0px;
-    padding: 195px 0;
+    padding: 198px 0;
     position: relative;
     overflow: hidden;
 }
+/* code for the video*/
 .video-bg{
-    position:absolute;
-    top:100;
-    left:20;
-    min-width: 100%;
-    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    min-width: 10%;
+    min-height: 10%;
     z-index: -1;
-    object-fit: scale-down;
 
 }
+/*fade in text*/
 @keyframes fade-inout {
     0%{ opacity: 0;}
     100%{ opacity: 1;}
@@ -29,9 +33,11 @@ a{
 .fade-in-fade-out{
     animation: fade-inout 3s;
 }
+/* top menu or navigation bar*/
 h1 {
-    font-family:'Times New Roman', Times, serif;
+    font-family: arial;
     font-size: 3em;
+    text-shadow: 2px 2px 3px rgb(21, 21, 54);
 }
 .navbar ul{
     list-style-type: none;
